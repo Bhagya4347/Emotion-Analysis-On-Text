@@ -24,7 +24,6 @@ Aim is to make machines understand and detect emotions from any textual input. A
 Use pip3 to install any missing dependencies. Such as For Naive Bayes install textblob.
 
 $ pip install -U textblob
-
 $ python -m textblob.download_corpora
 
 **DataSet:**
@@ -43,23 +42,20 @@ Retracted: Recognition of Emotion with SVMs  by Zhi Teng, Fuji Ren and Shingo Ku
 
 Approach followed is:
 
-1. Raw data set: It contains 40,000 tweets and 4 columns. 
+1. Raw data set: It contains 40,000 tweets and 4 columns.
 
 2. Data Pre-processing: 
 
  Pre - processing includes:
- 
  - Removal of regular expressions, symbols using the 're' library
  - Removal of lemmas (Lexicon Normalization) using WordNetLemmatizer from NLTK
  - Removal of multi-letter ambiguities, e.g 'noooo' gets converted to 'no'
  - Removal of stop-words - caused decrease in f1-score as well as overall accuracy
  
 3. Word Dictionary:
-
 Words are stored in a dictionary. 
 
 4. Word2Vec:
-
 Vectorization is done. Words are vectorized each vector represnts the category of emotion. 
 
 5. Training Model: 
