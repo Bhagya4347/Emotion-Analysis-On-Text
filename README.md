@@ -2,12 +2,12 @@
 
 Objective: Aim is to make machines understand and detect emotions from any textual input. A text based emotion recognition system which give an overall sentiment of the sentence/paragraph in terms of positivity/negativity and neutrality and determine the overall emotion.
 
-#Work Done:
+#Work-Done
 . Analyse the impact of effective words on the sentence.
 . Used supervied learning models to classify the emotion classes on given sentence.
 . Further work includes Emotional analysis on a given sentence/paragraph and find the relation using VAD. 
 
-#Dependencies:
+#Dependencies
 . Numpy
 . Pandas
 . NLTK
